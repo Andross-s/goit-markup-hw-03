@@ -52,7 +52,7 @@ img {
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 156px;
 }
 
 .webstudio {
@@ -70,6 +70,7 @@ img {
 .studio {
   color: #2e2f42;
 }
+
 .nav {
   display: flex;
   align-items: center;
@@ -95,12 +96,11 @@ img {
   text-decoration: none;
   color: #404bbf;
 }
+
 .links-active:active {
   text-decoration: underline;
   color: #404bbf;
 }
-
-
 
 .contacts-list {
   font-style: normal;
@@ -130,13 +130,15 @@ img {
   background-color: #2e2f42;
   text-align: center;
   margin: 0;
-  padding: 120px 0;
 }
 
 .main-section .container {
+  padding-top: 188px;
+  padding-bottom: 188px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .main-text {
@@ -147,8 +149,8 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  padding-top: 188px;
-  padding-bottom: 48px;
+  max-width: 496px;
+  margin-bottom: 48px;
 }
 
 .main-section-button {
@@ -164,9 +166,9 @@ img {
   align-items: center;
   border-radius: 4px;
   padding: 16px 32px;
-
   text-align: center;
 }
+
 .main-section-button:hover,
 .main-section-button:focus {
   color: #fff;
@@ -183,9 +185,6 @@ img {
 
 .features .features-item {
   flex-basis: calc((100% - 72px) / 4);
-}
-
-.features-item {
 }
 
 .features-title {
@@ -340,4 +339,5 @@ img {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
