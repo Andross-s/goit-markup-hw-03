@@ -129,7 +129,6 @@ img {
 .main-section {
   background-color: #2e2f42;
   text-align: center;
-  margin: 0;
 }
 
 .main-section .container {
@@ -162,8 +161,7 @@ img {
   color: #fff;
   background: #4d5ae5;
   cursor: pointer;
-  margin-bottom: 188px;
-  align-items: center;
+    align-items: center;
   border-radius: 4px;
   padding: 16px 32px;
   text-align: center;
@@ -244,6 +242,8 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-top: 32px;
+  padding-bottom: 8px;
 }
 
 .team-position {
@@ -254,6 +254,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  margin-bottom: 32px;
 }
 
 .portfolio-title {
@@ -325,7 +326,7 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
-  margin-bottom: 16px;
+  
 }
 
 .studio-logo {
@@ -340,4 +341,5 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+  margin-top: 16px;
 }
