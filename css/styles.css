@@ -36,8 +36,7 @@ img {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
- 
-  }
+}
 
 .header .container {
   display: flex;
@@ -74,7 +73,7 @@ img {
   color: #2e2f42;
 }
 
-.nav {
+.site-nav {
   display: flex;
   align-items: center;
   gap: 40px;
@@ -134,7 +133,7 @@ img {
   background-color: #2e2f42;
   text-align: center;
   padding-top: 188px;
-    padding-bottom: 188px;
+  padding-bottom: 188px;
 }
 
 .main-section .container {
@@ -166,14 +165,14 @@ img {
   color: #fff;
   background: #4d5ae5;
   cursor: pointer;
-    align-items: center;
+  align-items: center;
   border-radius: 4px;
   padding: 16px 32px;
   text-align: center;
   border: none;
   min-width: 169px;
   height: 56px;
-  }
+}
 
 .main-section-button:hover,
 .main-section-button:focus {
@@ -183,14 +182,14 @@ img {
 
 .visually-hidden {
   position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border: 0;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 .features {
@@ -324,7 +323,7 @@ img {
 
 .row-title {
   font-weight: 500;
-    font-size: 20px;
+  font-size: 20px;
   /* line-height: 24px; */
   line-height: 120%;
   letter-spacing: 0.02em;
@@ -359,7 +358,6 @@ img {
   color: #4d5ae5;
   text-decoration: none;
   margin-bottom: 16px;
-  
 }
 
 .studio-logo {
